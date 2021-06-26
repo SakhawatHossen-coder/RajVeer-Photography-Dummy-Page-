@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>RajVeer Photography</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="navContainer">
+          <div class="logo">
+            <a href="">RajVeer</a>
+          </div>
+          <div class="navItems">
+            <a href="">Home</a>
+            <a href="">Gallary</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </div>
+          <div class="menu">
+            <span onclick="openNav()"
+              ><i class="fa fa-bars" onclick="closeNav()"></i
+            ></span>
+            <!-- Menu Icon -->
+
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="#">Home</a>
+              <a href="#">Gallary</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Hero Section  -->
+    <section>
+      <div class="main-sec">
+        <div class="heroSec">
+          <img src="/image/hero1.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h1>Welcome To <br />RajVeer<span> Photography</span></h1>
+        </div>
+        <button class="btn">Hire Me</button>
+      </div>
+    </section>
+    <!-- Work Section  -->
+    <section>
+      <div class="main-work">
+        <div class="text2">
+          <h2>Latest Work</h2>
+        </div>
+        <div class="images">
+          <img src="/image/Component 9 – 1.jpg" alt="" />
+          <img src="/image/Mask Group 2.jpg" alt="" />
+          <img src="/image/Component 7 – 1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Qoute Section  -->
+    <section>
+      <div class="qoute">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae,
+          at ipsum ullam, neque temporibus magnam aspernatur eius possimus iusto
+          magni hic sint, adipisci beatae totam sapiente repudiandae dolore
+          porro vel.
+        </p>
+      </div>
+    </section>
+    <!-- Why Me Section  -->
+    <section>
+      <div class="main-section">
+        <div class="text3">
+          <h1>Why Me</h1>
+        </div>
+        <div class="info-container">
+          <div class="camera">
+            <img src="/icon/camera.svg" alt="" />
+            <h1>
+              Professional<br />
+              Photography
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur<br />
+              adipisicing elit. Tempore, voluptatum molestias minima blanditiis
+              alias sequi, eos officiis nobis labore nesciunt obcaecati tempora
+              debitis repellendus voluptatibus a earum provident voluptate
+              magni?Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="video">
+            <img src="/icon/video.svg" alt="" />
+            <h1>
+              Professional<br />
+              Videography
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />adipisicing elit.
+              Tempore, voluptatum molestias minima blanditiis alias sequi, eos
+              officiis nobis labore nesciunt obcaecati tempora debitis
+              repellendus voluptatibus a earum provident voluptate magni?Lorem
+              ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="pencil">
+            <img src="/icon/pencil.svg" alt="" />
+            <h1>
+              Masterclass<br />
+              Editing
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur<br />
+              adipisicing elit. Tempore, voluptatum molestias minima blanditiis
+              alias sequi, eos officiis nobis labore nesciunt obcaecati tempora
+              debitis repellendus voluptatibus a earum provident voluptate
+              magni?Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Second Qoute Section  -->
+    <section>
+      <div class="sec-qoute">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum,
+          officiis.Lorem ipsum dolor sit amet.
+        </p>
+        <button class="btn2">Hire Me</button>
+      </div>
+      <!-- Footer Section  -->
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="list">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">portfolio</a></li>
+            <li><a href="">about</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h2>Follow Me</h2>
+          <div class="icon-social">
+            <i class="fas fa fa-facebook"></i>
+            <i class="fas fa fa-instagram"></i>
+            <i class="fas fa fa-behance"></i>
+            <i class="fas fa fa-twitter"></i>
+          </div>
+        </div>
+        <div id="text-copyright">
+          <p>&#169; Copyright 2021 <span>@RajVeer</span></p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      /* Set the width of the side navigation to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "70%";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.querySelector(".fa").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
