@@ -274,9 +274,10 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #00a2ff;
     display: block;
     transition: 0.3s;
+    text-align: center;
   }
 
   /* When you mouse over the navigation links, change their color */
@@ -352,13 +353,15 @@ body {
     width: 375px;
     height: 144px;
     margin: 0;
-    overflow: hidden;
+
     padding: 0;
   }
   .qoute p {
     font-size: 0.8rem;
     line-height: 1;
     text-align: center;
+    margin-top: 0.95rem;
+    padding: 1rem;
   }
   /* Why Me Section  */
   .info-container {
@@ -377,11 +380,10 @@ body {
   /* quotes:  2; */
   .sec-qoute {
     margin-top: 18px;
+    margin-left: 1rem;
   }
   .sec-qoute p {
     font-size: 0.8rem;
-    margin: 0;
-    padding: 0;
   }
   .btn2 {
     padding: 8px 15px;
@@ -392,12 +394,23 @@ body {
     height: 50vh;
     border-radius: 0;
     max-width: 375px;
+    border-top-left-radius: 1.35rem;
+    border-top-right-radius: 1.35rem;
   }
   .list ul {
     flex-direction: column;
   }
   .social-media {
     display: flex;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .social-media h2 {
+    margin: 0;
+    padding: 10px;
+  }
+  .icon-social {
+    justify-content: space-between;
   }
 }
 
