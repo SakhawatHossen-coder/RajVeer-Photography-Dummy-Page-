@@ -6,8 +6,7 @@
   text-decoration: none;
 }
 body {
-  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans" "Sen",
-    "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 .navContainer {
   display: flex;
@@ -20,20 +19,20 @@ body {
   color: white;
   padding: 0.505rem;
   font-family: "Sen";
-  font-size: 1.00555rem;
+  font-size: 1.05rem;
 }
 .navItems a:hover {
   color: rgb(6, 14, 53);
 }
 .logo a {
-  font-size: 1.555rem;
+  font-size: 1.5rem;
   font-family: "Lucida Bright";
 }
 
 /* Hero Scetion */
-/* .heroSec {
+.heroSec {
   overflow: hidden;
-} */
+}
 .heroSec img {
   background-repeat: no-repeat;
   width: 1345px;
@@ -47,7 +46,7 @@ body {
 .text {
   position: absolute;
   top: 10rem;
-  right: 8rem;
+  right: 7.5rem;
   left: auto;
 }
 .text h1 {
@@ -69,8 +68,6 @@ body {
   border-radius: 10rem;
   background-color: #514bff;
   color: white;
-}
-.btn {
   cursor: pointer;
   font-size: 1.2rem;
   font-family: "Sen";
@@ -227,8 +224,8 @@ body {
   text-align: center;
   font-family: "Sitka Heading";
   position: relative;
-  top: 6rem;
-  left: 5rem;
+  top: 4rem;
+  left: 0rem;
 }
 #text-copyright p {
   color: white;
@@ -238,12 +235,6 @@ body {
 }
 /* @media queries for Responsive  */
 @media screen and (max-width: 375px) {
-  body {
-    max-width: 375px;
-  }
-  /* .navContainer {
-    max-width: 375px;
-  } */
   .navItems {
     display: none;
   }
@@ -303,33 +294,33 @@ body {
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   .main-sec {
     background-color: #ffd225;
-    width: 100%;
-    height: 35.35vh;
+    height: 35vh;
     border-bottom-right-radius: 10.255rem;
     margin: 0;
   }
   .text {
-    position: absolute;
+    display: flex;
+    margin: 0 auto;
   }
-  .text h1 {
-    font-size: 1.55rem;
-    text-align: center;
-    margin-left: 2.25rem;
-    position: relative;
-    top: auto;
-    bottom: 2.25rem;
-    left: 1.85rem;
+  .main-sec .text h1 {
+    font-size: 1.2rem;
+    color: #111;
+    margin-left: 2rem;
+    top: 1rem;
   }
   .text h1 span {
     font-family: "Sen";
   }
 
-  .btn {
-    top: 15.25rem;
+  .main-sec .btn {
+    position: absolute;
+    top: 16.2rem;
     padding: 8px 15px;
     left: 3.95rem;
   }
   .btn button {
+    position: relative;
+
     font-size: 0.99rem;
   }
   /* Latest Work Section  */
@@ -391,7 +382,7 @@ body {
   }
   /* footer Section  */
   .footer {
-    height: 50vh;
+    height: 55vh;
     border-radius: 0;
     max-width: 375px;
     border-top-left-radius: 1.35rem;
@@ -412,6 +403,15 @@ body {
   .icon-social {
     justify-content: space-between;
   }
+  #text-copyright {
+    width: 100%;
+  }
+  #text-copyright p {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-height: 450px) {
@@ -420,5 +420,42 @@ body {
   }
   .sidenav a {
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-sec {
+    overflow: hidden;
+  }
+  .text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 0rem;
+    left: 1.8rem;
+  }
+  .heroSec img {
+    opacity: 80%;
+  }
+  .text h1 {
+    position: relative;
+    top: 4.5rem;
+    font-family: "Sen";
+    font-size: 2.8rem;
+    margin-left: 3.5rem;
+  }
+  .text h1 span {
+    font-family: "Sen";
+  }
+  .btn {
+    top: 29rem;
+    right: 22rem;
+    left: auto;
+  }
+
+  .images {
+    flex-direction: column;
+    margin-left: 2.2rem;
+  }
+  .images img {
+    padding: 1rem;
   }
 }
