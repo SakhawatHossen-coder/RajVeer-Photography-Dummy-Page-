@@ -5,5 +5,6 @@ assets I used to make this website
 Credit :
 photo : Photo by Zukiman Mohamad from Pexels #heroImage
 icon : fontawesome
+website live on netlify : https://rajveerphotography.netlify.app/
  
  Thank you for having this .
